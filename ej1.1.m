@@ -11,7 +11,7 @@ xlabel('f (normalizada)');
 ylabel('|X(f)|');
 title('Módulo de la TFTD');
 figure;
-plot(s, angle(X));
+plot(s, angle(X)); %fase
 xlabel('f (normalizada)');
 ylabel('∠X(f)');
 title('Fase de la TFTD');
