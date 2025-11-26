@@ -1,5 +1,7 @@
-clc, close all, clear all;
-numal= 033293; %definimos una variable con nuestro numero de alumno
+clc;
+close all;
+clear all;
+numal= 034800; %definimos una variable con nuestro numero de alumno
 [n,x]= senial(numal);
 
 x1= s1(x);
