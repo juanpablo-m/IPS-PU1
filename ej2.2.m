@@ -1,5 +1,4 @@
-%prueba del sistema para el ej2.2
-n=0:20000;
+n=0:26459;
 delta= n==0;
 h_sistema=sistema_ed(delta);
 
@@ -8,3 +7,4 @@ stem(n, h_sistema);
 title('Respuesta impulsional del sistema creado por nosotros');
 xlabel('n');
 ylabel('h[n]');
+

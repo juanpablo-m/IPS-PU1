@@ -3,6 +3,7 @@ numal=033293;
 
 figure;
 stem(n, h);
-title('respuesta impulsional de un sistema SLID FIR que modela el comportamiento de un canal digital con dos ecos.');
+title('señal generada por hcanald');
 xlabel('n');
 ylabel('h[n]');
+

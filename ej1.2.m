@@ -24,11 +24,13 @@ title('Respuesta Impulsional h[n] del sistema 1');
 xlabel('n (muestras)');
 ylabel('h[n]');
 
+
 figure;
 stem(n, h2, 'filled');
 title('Respuesta Impulsional h[n] del sistema 2');
 xlabel('n (muestras)');
 ylabel('h[n]');
+
 
 figure;
 stem(n, h3, 'filled');
@@ -36,19 +38,22 @@ title('Respuesta Impulsional h[n] del sistema 3');
 xlabel('n (muestras)');
 ylabel('h[n]');
 
+
 figure;
 stem(n, h4, 'filled');
 title('Respuesta Impulsional h[n] del sistema 4');
 xlabel('n (muestras)');
 ylabel('h[n]');
 
-% --- Sistema 1 ---
+
+
 figure;
 plot(s, abs(H1));
 grid on;
 xlabel('s (ciclos/muestra)');
 ylabel('|H1|');
 title('Módulo de la respuesta en frecuencia - Sistema 1');
+
 
 figure;
 plot(s, angle(H1));
@@ -57,13 +62,14 @@ xlabel('s (ciclos/muestra)');
 ylabel('∠ H1 [Rad]');
 title('Fase de la respuesta en frecuencia - Sistema 1');
 
-% --- Sistema 2 ---
+
 figure;
 plot(s, abs(H2));
 grid on;
 xlabel('s (ciclos/muestra)');
 ylabel('|H2|');
 title('Módulo de la respuesta en frecuencia - Sistema 2');
+
 
 figure;
 plot(s, angle(H2));
@@ -72,13 +78,14 @@ xlabel('s (ciclos/muestra)');
 ylabel('∠H2[Rad]');
 title('Fase de la respuesta en frecuencia - Sistema 2');
 
-% --- Sistema 3 ---
+
 figure;
 plot(s, abs(H3));
 grid on;
 xlabel('s (ciclos/muestra)');
 ylabel('|H3|');
 title('Módulo de la respuesta en frecuencia - Sistema 3');
+
 
 figure;
 plot(s, angle(H3));
@@ -87,7 +94,7 @@ xlabel('s (ciclos/muestra)');
 ylabel('∠H3[Rad]');
 title('Fase de la respuesta en frecuencia - Sistema 3');
 
-% --- Sistema 4 ---
+
 figure;
 plot(s, abs(H4));
 grid on;
@@ -95,9 +102,11 @@ xlabel('s (ciclos/muestra)');
 ylabel('|H4|');
 title('Módulo de la respuesta en frecuencia - Sistema 4');
 
+
 figure;
 plot(s, angle(H4));
 grid on;
 xlabel('s (ciclos/muestra)');
 ylabel('∠H4[Rad]');
 title('Fase de la respuesta en frecuencia - Sistema 4');
+
