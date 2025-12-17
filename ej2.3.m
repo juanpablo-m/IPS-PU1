@@ -18,10 +18,11 @@ ylabel('x(t)');
 title('Señal de entrada');
 
 figure;
-plot(y);
+plot(y(:,1));
 xlabel('t');
 ylabel('y(t)');
 title('Señal de salida');
+
 
 
 

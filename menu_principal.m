@@ -1,4 +1,3 @@
-% MENU_PRINCIPAL Script principal con menu simple para ejecutar los incisos permitidos.
 clear;
 clc;
 close all;

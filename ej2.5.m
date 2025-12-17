@@ -27,20 +27,23 @@ ylabel('x(t)');
 title('Señal de entrada');
 
 figure;
-plot(y);
+plot(y(:,1));
 xlabel('t');
 ylabel('y(t)');
 title('Señal de salida');
+print(2, '-dpng', 'ej25CORRECCION1');
 
 figure;
-plot(y2);
+plot(y2(:,1));
 xlabel('t');
 ylabel('y2(t)');
 title('Señal de salida por filtro de 2 ramas');
+print(3, '-dpng', 'ej25CORRECCION2');
 
 figure;
-plot(y3);
+plot(y3(:,1));
 xlabel('t');
 ylabel('y3(t)');
 title('Señal de salida por filtro de 3 ramas');
+print(4, '-dpng', 'ej25CORRECCION3');
 
